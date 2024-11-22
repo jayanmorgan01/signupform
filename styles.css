@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+  width: 40%;
+  height: 100vh;
+  position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.logo {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  opacity: 45%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+.logo h1 {  
+  font-size: 60px;
+  margin: 0;
+  opacity: 100%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.logo p{
+  margin: 0;
+  margin-left: 30px;
+}
+
+.mainbar {
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-info {
+  background-color: white;
+  height: 30%;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+
+.form {
+  background-color: lightgray;
+  height: 45%;
+  padding: 25px;
+}
+
+input {
+  border: 2px solid #000;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: blue;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-row {
+  display: flex;
+  padding: 15px;
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-right: 100px;
+}
+
+.form-action {
+  background-color: white;
+  height: 25%;
+  padding: 30px;
+}
+
+button {
+    background-color: rgb(26, 22, 76);
+    color:white;
+    padding: 15px;
+    width: 200px;
+    border: 2px solid #000;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
